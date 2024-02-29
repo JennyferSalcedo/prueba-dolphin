@@ -1,15 +1,14 @@
-
-import './App.css'
-import { Navbar } from './components/Navbar'
+import './App.css';
+import { Navbar } from './components/Navbar';
+import { AppRouter } from './router/AppRouter';
 
 function App() {
-
-
   return (
     <>
-   <Navbar/>
+      <Navbar />
+      <AppRouter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

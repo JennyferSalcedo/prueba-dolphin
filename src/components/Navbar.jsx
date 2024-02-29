@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Logo from '../assets/LogoRickMorty.png';
 import './Navbar.css';
 
@@ -15,10 +16,10 @@ export const Navbar = () => {
       <div className="container2">
         <ul className='options'>
             <li>
-                <a href="">Personajes</a>
+                <NavLink to='/characters'>Personajes</NavLink>
             </li>
             <li>
-                <a href="">Creadora</a>
+                <NavLink to='/creator'>Creadora</NavLink>
             </li>
         </ul>
       </div>
